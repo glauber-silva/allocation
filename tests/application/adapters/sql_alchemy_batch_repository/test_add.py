@@ -23,5 +23,3 @@ def test_orderline_mapper_can_save_line(session):
     session.commit()
     rows = list(session.execute('SELECT orderid, sku, qty FROM "order_lines"'))
     assert rows == [("ORDER-1", "DECORATIVE-WIDGET", 12)]
-
-    

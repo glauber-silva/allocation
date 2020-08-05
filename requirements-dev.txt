@@ -1,0 +1,12 @@
+-r requirements.txt
+
+flake8
+freezegun
+ipdb
+pytest
+pytest-cov
+pytest-mock
+requests-mock
+
+
+

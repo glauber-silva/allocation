@@ -1,7 +1,8 @@
+from enum import Enum
 from typing import List
 
-from src.domain.batch import OrderLine, Batch
-from src.domain.exception import OutOfStock
+from main.domain.batch import OrderLine, Batch
+from main.domain.exception import OutOfStock
 
 
 def allocate(line: OrderLine, batches: List[Batch]) -> str:
